@@ -11,7 +11,7 @@ function tocaSom (selectorAudio) {
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
-//para
+// percorre a lista de botões e aciona os eventos
 for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
     const tecla = listaDeTeclas[contador];
